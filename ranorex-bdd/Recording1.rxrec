@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="80bb412a-d7eb-4b38-b5ff-1130891d4024"
+mode="Global"
+rxversion="8.1">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="ranorex_bdd">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="b2e854e2-4b54-48f2-871e-dfce0b27f866"
+	name="ranorex_bddRepository"
+	relativepath="ranorex-bddRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="ranorex_bddRepository"
+		namespace="ranorex_bdd">
+		</codegen>
+		<rootfolder
+		id="8e9a327c-eb57-46bf-98c4-919f533fb40f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

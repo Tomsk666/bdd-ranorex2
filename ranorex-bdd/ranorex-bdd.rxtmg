@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ranorex-bdd"
+      id="75c49dc6-41e2-4b24-af7e-9e7a3f5e43c7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ranorex-bdd"
+      id="75c49dc6-41e2-4b24-af7e-9e7a3f5e43c7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

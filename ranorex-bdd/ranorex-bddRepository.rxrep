@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="ranorex-bddRepository"
+id="b2e854e2-4b54-48f2-871e-dfce0b27f866"
+rxversion="8.1">
+  <codegen
+  classname="ranorex-bddRepository"
+  namespace="ranorex_bdd"/>
+  <rootfolder
+  name="Root"
+  id="8e9a327c-eb57-46bf-98c4-919f533fb40f"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
