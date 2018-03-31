@@ -1,4 +1,4 @@
-
+@functional
 Feature: RB-2
   <Some interesting description here>
 

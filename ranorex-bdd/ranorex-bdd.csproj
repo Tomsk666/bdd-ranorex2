@@ -120,6 +120,15 @@
     <Compile Include="AssemblyInfo.cs">
       <id>82e3dc13-9048-4af1-9cfc-b445a6582a62</id>
     </Compile>
+    <Compile Include="bindings\RB2steps.cs">
+      <id>8d50d10d-4b0f-4324-bb8a-a9062485beab</id>
+    </Compile>
+    <Compile Include="features\RB-2.feature.cs">
+      <BoundTo>24c3fd11-57c9-426c-bdc9-108543380098</BoundTo>
+      <DependentUpon>RB-2.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>11505688-ef3e-4d98-9f4c-b30af8f40713</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>d16f54e7-3098-489d-b658-0c31956da4b5</id>
     </Compile>
@@ -149,6 +158,7 @@
     <None Include="features\RB-2.feature">
       <id>24c3fd11-57c9-426c-bdc9-108543380098</id>
       <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>RB-2.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config">
       <id>4495d657-09bf-4faa-b622-de00b847abab</id>
