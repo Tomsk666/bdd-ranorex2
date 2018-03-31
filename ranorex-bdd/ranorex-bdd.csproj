@@ -5,13 +5,14 @@
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>ranorex_bdd</RootNamespace>
     <AssemblyName>ranorex-bdd</AssemblyName>
     <RanorexVersion>8.1</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>575c310e-78fb-4675-ad98-f1a74bbcb24a</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -144,6 +145,10 @@
   <ItemGroup>
     <None Include="app.config">
       <id>964f73d0-2084-4fa7-be5f-9831e5503f5e</id>
+    </None>
+    <None Include="features\RB-2.feature">
+      <id>24c3fd11-57c9-426c-bdc9-108543380098</id>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
     </None>
     <None Include="packages.config">
       <id>4495d657-09bf-4faa-b622-de00b847abab</id>
