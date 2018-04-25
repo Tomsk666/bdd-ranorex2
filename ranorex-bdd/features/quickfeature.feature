@@ -1,4 +1,4 @@
-
+ 
 Feature:
   my test feature
 
@@ -6,5 +6,5 @@ Feature:
     example sceanrio
     
     When I do this
-    Then Something happens
+    Then Something happens  
     
