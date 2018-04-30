@@ -1,4 +1,3 @@
-@functional
 Feature:
   Google Search
 

@@ -126,6 +126,11 @@
     <Compile Include="bindings\RB2steps.cs">
       <id>8d50d10d-4b0f-4324-bb8a-a9062485beab</id>
     </Compile>
+    <Compile Include="features\eoh google.feature.cs">
+      <BoundTo>b6b5d411-df2d-4b43-aa66-4d15bc17fe13</BoundTo>
+      <DependentUpon>eoh google.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Include="features\RB-2.feature.cs">
       <BoundTo>24c3fd11-57c9-426c-bdc9-108543380098</BoundTo>
       <DependentUpon>RB-2.feature</DependentUpon>
@@ -160,6 +165,8 @@
     </None>
     <None Include="features\eoh google.feature">
       <id>b6b5d411-df2d-4b43-aa66-4d15bc17fe13</id>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>eoh google.feature.cs</LastGenOutput>
     </None>
     <None Include="features\RB-2.feature">
       <id>24c3fd11-57c9-426c-bdc9-108543380098</id>
