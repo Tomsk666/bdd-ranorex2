@@ -130,6 +130,7 @@
       <BoundTo>b6b5d411-df2d-4b43-aa66-4d15bc17fe13</BoundTo>
       <DependentUpon>eoh google.feature</DependentUpon>
       <AutoGen>True</AutoGen>
+      <id>1df400a4-484a-4789-894f-1144deb0452b</id>
     </Compile>
     <Compile Include="features\RB-2.feature.cs">
       <BoundTo>24c3fd11-57c9-426c-bdc9-108543380098</BoundTo>

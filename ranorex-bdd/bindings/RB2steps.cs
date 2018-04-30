@@ -16,8 +16,8 @@ namespace ranorex_bdd.bindings
     public class RB2steps
     {
 
-        [When("I connect with Ranorex")]
-        public void WhenIPressAdd()
+        [When("I connect with (.*)")]
+        public void WhenIPressAdd(string user)
         {
             // TODO: implement act (action) logic
 

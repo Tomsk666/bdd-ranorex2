@@ -74,7 +74,7 @@ namespace ranorex_bdd.Features
 #line 5
   this.ScenarioSetup(scenarioInfo);
 #line 6
-    testRunner.When("I connect with Ranorex", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I connect with \"Ranorex\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 7
     testRunner.Then("it works", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
