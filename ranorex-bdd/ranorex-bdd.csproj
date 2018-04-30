@@ -120,6 +120,9 @@
     <Compile Include="AssemblyInfo.cs">
       <id>82e3dc13-9048-4af1-9cfc-b445a6582a62</id>
     </Compile>
+    <Compile Include="bindings\eohgooglesteps.cs">
+      <id>7f82d2c8-ce8d-4f8a-9189-007576ad1e0b</id>
+    </Compile>
     <Compile Include="bindings\RB2steps.cs">
       <id>8d50d10d-4b0f-4324-bb8a-a9062485beab</id>
     </Compile>
@@ -154,6 +157,9 @@
   <ItemGroup>
     <None Include="app.config">
       <id>964f73d0-2084-4fa7-be5f-9831e5503f5e</id>
+    </None>
+    <None Include="features\eoh google.feature">
+      <id>b6b5d411-df2d-4b43-aa66-4d15bc17fe13</id>
     </None>
     <None Include="features\RB-2.feature">
       <id>24c3fd11-57c9-426c-bdc9-108543380098</id>

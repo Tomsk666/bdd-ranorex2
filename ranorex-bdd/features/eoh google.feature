@@ -1,8 +1,8 @@
-
+@functional
 Feature:
   Google Search
 
-  Scenario:
+Scenario:
     EOH Search
 Given that I am on google
 When I search for EOH
